@@ -1,3 +1,10 @@
+"""
+Text-to-Video Pipeline using Stable Diffusion.
+
+This module implements a custom pipeline for generating videos from text prompts,
+extending the Stable Diffusion pipeline with cross-frame attention and motion warping.
+"""
+
 import copy
 from dataclasses import dataclass
 from typing import Callable, List, Optional, Union
